@@ -65,7 +65,7 @@ Peeping at the data we see that the minimum amount of playtime found is 0.1 hour
 
 $\begin{cases}
 \infty & \text{for }k\le 1 &\\
-\dfrac{k x_\mathrm{m}}{k-1} & \text{for }k\ge1
+\dfrac{k x_\mathrm{m}}{k-1} & \text{for }k\gt1
 \end{cases}$
 
 and this gives us $k=1.01$. To get started we expect our data process to be a $Pareto(0.1, 1.01)$.
